@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,txs}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        burtons: "burtons",
+        roboto: "roboto",
+      },
+    },
   },
   plugins: [],
 };
